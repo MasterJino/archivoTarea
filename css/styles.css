@@ -1,0 +1,104 @@
+/*** Cuerpo ***/
+body {
+    font-family: Arial, sans-serif;  /* Fuente de texto*/
+    margin: 0;                       /* Márgenes */
+    padding: 0;                      /* Relleno */
+    background-color: #f4f4f4;     /* Color de fondo */
+}
+
+/*** Encabezado ***/
+header {
+    background-color: #333;       /* Color de fondo */
+    color: white;                 /* Color del texto */
+    padding: 1em 0;                 /* Rrelleno arriba y abajo */
+    text-align: center;             /* Centra el texto */
+}
+
+/*** Listas del Menú ***/
+nav ul {
+    list-style-type: none;          /* Elimina las viñetas  */
+    padding: 0;                     /* Elimina el relleno por defecto  */
+    text-align: center;             /* Centra el contenido */
+}
+
+/*** Elementos de la lista del menu ***/
+nav ul li {
+    display: inline;                /* Mostrar en línea */
+    margin-right: 15px;             /* Margen derecho entre los elementos de la lista */
+}
+
+/*** Etiqueta a (enlaces) de la lista del menu ***/
+nav ul li a {
+    color: white;                 /* Color del texto de los enlaces de navegación */
+    text-decoration: none;          /* Elimina el subrayado de los enlaces */
+}
+
+
+/*** Contenido Principal ***/
+main {
+    padding: 2em;                   /* Añade relleno al contenido principal */
+}
+
+
+/*** Pie de Página ***/
+footer {
+    background-color: #333;       /* Color de fondo */
+    color: white;                 /* Color del texto */
+    text-align: center;             /* Centra el texto */
+    padding: 1em 0;                 /* Relleno arriba y abajo */
+    position: absolute;             /* Posiciona de forma absoluta */
+    bottom: 0;                      /* Sitúa el pie de página en la parte inferior de la página */
+    width: 100%;                    /* Ppie de página ocupa todo el ancho de la página */
+}
+
+
+/*** Formulario ***/
+form {
+    display: flex;                  /* Utiliza un contenedor flexible  */
+    flex-direction: column;         /* Formulario en una columna */
+    margin: 0 auto;                 /* Centra horizontalmente */
+    width: calc(100% - 800px);      /* Resta 300px de cada lado para mantener el margen */
+}
+
+
+/*** Clase Centrado ***/
+.centrado{
+    text-align: center;             /* Texto centrado */
+}
+
+/*** Etiquetas ***/
+label {
+    margin-top: 10px;               /* Margen superior a los elementos de etiqueta */
+}
+
+/*** Entradas del Formulario***/
+input, text {
+    margin-bottom: 10px;            /* Margen inferior a los campos de entrada */
+    padding: 10px;                  /* Relleno */
+    border: 1px solid #ccc;       /* Borde de los campos de entrada solidos y con color*/
+    border-radius: 4px;             /* Bordes redondeados */
+}
+
+/*** Botón del Formulario ***/
+button {
+    margin: 0 auto;             /* Margen superior e inferior de 20 píxeles, y centra el botón horizontalmente */
+    display: block;                 /* El botón se comporta como un elemento de bloque */
+    width: 100px;                   /* Ancho*/
+    background-color: #333;       /* Color de fondo */
+    color: white;                 /* Color del texto  */
+    border: 0;                      /* Elimina el borde */
+    padding: 10px;                  /* Relleno al botón */
+    cursor: pointer;                /* Cambia el cursor al pasar sobre el botón */
+}
+
+
+button:hover {
+    background: #555; /* Cambia el color de fondo del botón cuando se pasa el ratón sobre él */
+}
+
+
+
+/** Cuando se pasa el ratón sobre el botón***/
+button:hover {
+    background: #555;             /* Cambia el color de fondo*/
+}
